@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto%7CPassion+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Example Page</title>
+  </head>
+  <body>
+    <!--
+        Nav
+    -->
+    <nav class="grid" id="nav">
+      <div id="nav-wrapper">
+        <h2 id="nav-header">Example Page</h2>
+        <ul class="main-nav med-font"">
+          <li class="drop-nav">
+            <a class="drop-link" href="#">Item 1 <span class="btm-chevron"></span></a>
+            <ul class="hidden-nav">
+              <li><a href="#">Item title 2a</a></li>
+              <li><a href="#">Item 2b</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--
+        Header
+    -->
+    <header class="grid" id="header">
+      <div id="header-wrapper">
+        <div id="header-badge"></div>
+        <div id="header-text">
+          <h1 id="heading">Welcome to my example page</h1>
+          <h2 id="subheading">This is our new assessment</h2>
+        </div>
+      </div>
+    </header>
+    <!--
+        Main Content
+    -->
+    <main>
+      <!--
+          Cards
+          Card generation handled in JavaScript
+      -->
+      <section class="grid" id="card-section">
+        <div id="card-section-wrapper">
+          <div id="card-section-content" class="med-font">
+            <h3 class="large-font">These are cards</h3>
+            <p>
+              These cards are cool & tell you things about animals! Did you know
+              a bird can run up to 65mph? And a cat can jump 26 feet in the air
+              to catch prey? Animals are so cool.
+            </p>
+            <p>
+              <a class="card-section-link" href="#">Check out more animal facts</a>
+              There are so many facts to learn.
+            </p>
+
+            <span id="card-selection"
+              >I want to see:
+              <input
+                type="checkbox"
+                id="bird-check"
+                name="animal"
+                value="bird"
+                checked
+              />
+              <label for="bird-check">Birds</label>&nbsp;
+              <input
+                type="checkbox"
+                id="cat-check"
+                name="animal"
+                value="cat"
+                checked
+              />
+              <label for="cat-check">Cats</label>
+            </span>
+            <div id="card-content-wrapper"></div>
+          </div>
+        </div>
+      </section>
+      <!--
+          Constrained Content
+      -->
+      <section class="grid" id="content">
+        <div id="content-wrapper">
+          <div id="const-content">
+            <h3 id="const-header" class="large-font">
+              Here is some constrained content
+            </h3>
+            <br />
+            <p>
+              Where the metal hits the meat player-coach but upsell so please
+              use "solutionise" instead of solution ideas! :). Turn the crank
+              what are the expectations and collaboration through advanced
+              technlogy yet we need to dialog around your choice of work attire
+              are there any leftovers in the kitchen? those options are already
+              baked in with this model, yet clear blue water.
+            </p>
+            <br />
+            <p>
+              Products need full resourcing and support from a cross-functional
+              team in order to be built, maintained, and evolved quick-win or
+              root-and-branch review. We need to get all stakeholders up to
+              speed and in the right place nobody's fault it could have been
+              managed better drink from the firehose we need to make the new
+              version clean and sexy crisp ppt.
+            </p>
+            <br />
+            <p>
+              Net net mobile friendly. Synergize productive mindfulness bench
+              mark, loop back. Quick win synergize productive mindfulness nor
+              hit the ground running yet when does this sunset?
+            </p>
+          </div>
+          <!--
+              Three Columns
+          -->
+          <div id="list-wrapper">
+            <!--
+                Column 1
+            -->
+            <div class="list-column">
+              <div id="list">
+                <h3 class="list-header">List of things</h3>
+                <ul>
+                  <li>Thing 1</li>
+                  <li>Another thing</li>
+                  <li>THE thing</li>
+                  <li>Thingamabob</li>
+                  <li>Thingles</li>
+                </ul>
+              </div>
+            </div>
+            <!--
+                Column 2
+            -->
+            <div class="list-column">
+              <div id="duck">
+                <h3 class="list-header">Have you heard</h3>
+                <p>There was a duck at a store.</p>
+                <br />
+                <p>
+                  He ate for free. I should have ordered him more expensive
+                  food!
+                </p>
+                <br />
+                <p>The lesson here is DUCKS EAT FOR FREE at that restaurant.</p>
+                <br />
+              </div>
+            </div>
+            <!--
+                Column 3
+            -->
+            <div class="list-column">
+              <div id="thing">
+                <h3 class="list-header">Picture of some things</h3>
+
+                <div id="thing-wrapper">
+                  <img id="thing-img" src="img/things.jpg" alt="things" />
+                  <span
+                    >These guys are pretty coo’. Thing one and thing 2. You'll
+                    like what they do. Such fun from so few!</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="grid small-font" id="footer-main">
+      <div id="footer-wrapper">
+        <span>&copy; 2019 Example Company Name. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
