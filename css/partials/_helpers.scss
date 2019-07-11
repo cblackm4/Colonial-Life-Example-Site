@@ -1,0 +1,39 @@
+/* 
+    Helper Styles 
+*/
+
+.small-font {
+    font-size: 12px;
+}
+
+.med-font {
+    font-size: 16px;
+}
+
+.large-font {
+    font-size: 20px;
+}
+
+.btm-chevron {
+    position: relative;
+    display: inline-block;
+    transform: rotate(135deg);
+    border-right: 4px solid white;
+    border-top: 4px solid white;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+}
+
+/*
+    Grid Implementation
+*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(10, minmax(auto, 160px)) 1fr;
+}
+
+#nav-wrapper,
+#header-wrapper {
+    grid-column: 2/12;
+}

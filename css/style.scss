@@ -1,0 +1,34 @@
+// Variables
+$main-font: "Roboto",
+sans-serif;
+$alt-font: "Passion One",
+cursive;
+$text-shadow-grey: #9c9c9c;
+
+@import 'partials/helpers';
+@import 'partials/nav';
+@import 'partials/header';
+@import 'partials/cards';
+@import 'partials/constrained';
+@import 'partials/desktop';
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    Instructions specified Open Sans, but examples displayed Roboto? 
+*/
+html {
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family: $main-font;
+    font-weight: 300;
+}
+
+header {
+    text-align: center;
+}

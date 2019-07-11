@@ -1,0 +1,41 @@
+/*
+    Header Styles
+*/
+#header {
+    position: relative;
+    z-index: 8;
+    border-bottom: 5px solid #c0c0c0;
+    box-shadow: 0 2px 0px 0px rgba(87, 85, 85, 1);
+}
+
+#header-badge {
+    background-image: url("../img/random-mountain-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border-radius: 0 0 500px 500px;
+    border: 3px solid white;
+    border-top: 0;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#heading {
+    position: absolute;
+    font-family: $alt-font;
+    margin: 0 0.2em;
+    font-size: 75px;
+    font-weight: 500;
+    color: #dc4205;
+    -webkit-text-stroke: 2px white;
+    top: 0;
+    text-shadow: -1px 1px 2px white, 1px 1px 2px white, 1px -1px 0 white,
+        -1px -1px 0 white;
+    text-shadow: 3px 3px $text-shadow-grey;
+}
+
+#subheading {
+    font-size: 39.5px;
+    font-weight: 400;
+    color: #0b718f;
+    padding: 0.5em 0;
+}
