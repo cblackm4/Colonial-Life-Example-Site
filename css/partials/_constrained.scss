@@ -22,9 +22,12 @@
     padding-bottom: 1.5em;
 }
 
-#list>ul {
-    list-style-position: inside;
-    padding-bottom: 1.5em;
+#list {
+
+    & ul {
+        list-style-position: inside;
+        padding-bottom: 1.5em;
+    }
 }
 
 #thing,

@@ -8,8 +8,11 @@
         align-items: center;
     }
 
-    #nav-wrapper>h2 {
-        padding: 0 0 0 15px;
+    #nav-wrapper {
+
+        & h2 {
+            padding: 0 0 0 15px;
+        }
     }
 
     .main-nav {
